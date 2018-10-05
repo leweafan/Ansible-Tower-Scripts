@@ -12,7 +12,8 @@ Use group "Available_Zabbix_Agents" in LIMIT section to skip all unavailable hos
 
 ## Install
 1. Copy zabbix.ini file to /etc/ansible/
-2. Create custom script using zabbix_dynamic_inventory.py
+2. Edit zabbix.ini with your parameters
+3. Create custom script using zabbix_dynamic_inventory.py
 
 ## Tested with
 - Tower 3.2.5 (Ansible 2.6.4)
