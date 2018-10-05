@@ -11,8 +11,8 @@ Script creates two additional groups "group_all" and "Available_Zabbix_Agents".
 Use group "Available_Zabbix_Agents" in LIMIT section to skip all unavailable hosts.
 
 ## Install
-1. Copy ini file to /etc/ansible/
-2. Create custom script using py
+1. Copy zabbix.ini file to /etc/ansible/
+2. Create custom script using zabbix_dynamic_inventory.py
 
 ## Tested with
 - Tower 3.2.5 (Ansible 2.6.4)
